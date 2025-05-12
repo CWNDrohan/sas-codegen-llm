@@ -65,6 +65,18 @@ sas-finetune-llm/
 
 ---
 
+# Data Sources
+
+This project used training examples derived from the publicly available MEPS (Medical Expenditure Panel Survey) dataset:
+- Website: https://www.meps.ahrq.gov/mepsweb/
+- Administered by: Agency for Healthcare Research and Quality (AHRQ)
+- Description: MEPS collects detailed information on health services used, costs, payments, and insurance coverage for individuals and families in the U.S.
+
+Prompt–completion pairs were hand-authored using analytical questions and real-world SAS workflows commonly applied to MEPS data (e.g., eligibility spans, claims filtering, macro-based processing).
+
+Note: Due to project constraints, only a limited number of manually created examples (~20) were used for fine-tuning. Raw MEPS data is not included in this repository but is freely available through the AHRQ website.
+
+
 ## 📇 Credits
 
 Capstone project for DATA690: Large Language Models
